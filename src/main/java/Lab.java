@@ -57,6 +57,7 @@ public class Lab {
      */
     public int[] returnNewArraySizeN(int n){
         int[] newArray = new int[n];
+        
         return newArray;
     }
 }
