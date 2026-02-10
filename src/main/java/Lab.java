@@ -47,7 +47,7 @@ public class Lab {
     public void setNthElementOfArray(int[] arr, int n, int val){
         if (n >= 1 && n < arr.length) {
             arr[n - 1] = val;
-            System.out.print((n - 1) + ", " );
+            System.out.print(arr[n-1] + "," );
         }
     }
 
