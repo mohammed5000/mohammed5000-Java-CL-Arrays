@@ -46,7 +46,7 @@ public class Lab {
      */
     public void setNthElementOfArray(int[] arr, int n, int val){
         for (int i = 0; i < n; i++) {
-            arr[i] = val;
+            System.out.print(arr[i] + ", " );
         }
     }
 
