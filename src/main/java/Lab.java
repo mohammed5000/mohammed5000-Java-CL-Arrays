@@ -45,8 +45,8 @@ public class Lab {
      * @return nothing. Because of pass-by-reference, any change to the array will be reflected across our java program.
      */
     public void setNthElementOfArray(int[] arr, int n, int val){
-        if (n >= 1 && n <= arr.length) {
-          val =  arr[n - 1];
+        for (int i = n; i <= val; ++i) {
+          System.out.print(arr[i] + ", ");
         
         }
     }
